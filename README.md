@@ -1,10 +1,10 @@
-# FreeRTOS TASK, RTOS SEM 5 Computer Engineering PENS
+# I/O ESP32 & FreeRTOS Task, RTOS SEM 5 Computer Engineering PENS
 
 ### Oleh: <br>
 ### Muhammad Alfarrel Arya Mahardika (3223600017)
 ###  Muhamad Beril Fikri Widjaya (3223600013)
 
-<p> Pada repository ini berisikan program-program Task FreeRTOS yang menggunakan peripheral:<br>
+<p> Pada repository ini berisikan program-program Task FreeRTOS & Access Core 0 & 1 yang menggunakan peripheral:<br>
 <li> LED </li>
 <li> Button
 <li> Buzzer
@@ -18,7 +18,10 @@ Masing-masing Peripheral akan di jalankan di prioritas yang sama dan core yang b
 Berikut Foto Rangkaian seluruh peripheral pada ESP-S3:<br>
 ![All peripheral](All%20peripheral/image_rtos.png) <br>
 
-Jika anda ingin lebih lanjut mengetahui code dan video langkah-langkahnya, anda bisa mengunjungi folder 
+Jika anda ingin lebih lanjut mengetahui code dan video langkah-langkah FreeRTOS Task, anda bisa mengunjungi folder 
+[All Peripheral](https://github.com/MuhammadAlfarrel/-IO_ESP32/tree/main/All%20peripheral)<br>
+
+Jika anda ingin lebih lanjut mengetahui code dan video langkah-langkah I/O ESP32 Core 0 & 1 Access, anda bisa mengunjungi folder 
 [All Peripheral](https://github.com/MuhammadAlfarrel/-IO_ESP32/tree/main/All%20peripheral)<br>
 
 <p>Tugas RTOS kali ini adalah mengimplementasi sistem operasi Real-Time Operating System (FreeRTOS) pada mikrokontroler ESP32-S3 untuk mendemonstrasikan kemampuan multitasking. FreeRTOS memungkinkan kita untuk membagi program besar menjadi unit-unit eksekusi yang lebih kecil dan independen yang disebut Task. Dengan FreeRTOS, kami dapat memastikan bahwa fungsi-fungsi real-time, seperti mengendalikan Servo, menggerakkan Stepper, dan membaca sensor, dapat berjalan secara bersamaan (konkuren) tanpa saling memblokir. Ini adalah peningkatan signifikan dibandingkan pemrograman bare-metal Arduino standar yang sering bergantung pada fungsi delay() yang memblokir semua operasi lain.</p>
