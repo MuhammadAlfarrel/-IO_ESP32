@@ -22,7 +22,7 @@ Jika anda ingin lebih lanjut mengetahui code dan video langkah-langkah FreeRTOS 
 [All Peripheral](https://github.com/MuhammadAlfarrel/-IO_ESP32/tree/main/All%20peripheral)<br>
 
 Jika anda ingin lebih lanjut mengetahui code dan video langkah-langkah I/O ESP32 Core 0 & 1 Access, anda bisa mengunjungi folder 
-[All Peripheral](https://github.com/MuhammadAlfarrel/-IO_ESP32/tree/main/All%20peripheral)<br>
+[I/O ESP32 Acces Core 0 & 1](https://github.com/MuhammadAlfarrel/-IO_ESP32/tree/main/IO%20ESP32%20Access%20Core0%261)<br>
 
 <p>Tugas RTOS kali ini adalah mengimplementasi sistem operasi Real-Time Operating System (FreeRTOS) pada mikrokontroler ESP32-S3 untuk mendemonstrasikan kemampuan multitasking. FreeRTOS memungkinkan kita untuk membagi program besar menjadi unit-unit eksekusi yang lebih kecil dan independen yang disebut Task. Dengan FreeRTOS, kami dapat memastikan bahwa fungsi-fungsi real-time, seperti mengendalikan Servo, menggerakkan Stepper, dan membaca sensor, dapat berjalan secara bersamaan (konkuren) tanpa saling memblokir. Ini adalah peningkatan signifikan dibandingkan pemrograman bare-metal Arduino standar yang sering bergantung pada fungsi delay() yang memblokir semua operasi lain.</p>
 
